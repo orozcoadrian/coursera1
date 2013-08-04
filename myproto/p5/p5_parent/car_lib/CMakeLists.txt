@@ -10,4 +10,4 @@ PROTOBUF_GENERATE_CPP(PROTO_SRCS PROTO_HDRS car.proto)
 
 
 
-add_library(libcar ${PROTO_SRCS} ${PROTO_HDRS})
+add_library(car ${PROTO_SRCS} ${PROTO_HDRS})
