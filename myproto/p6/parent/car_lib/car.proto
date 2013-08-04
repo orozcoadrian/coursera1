@@ -1,0 +1,6 @@
+package tutorial;
+
+message Car {
+  required string make = 1;
+  optional string model = 2;
+}
